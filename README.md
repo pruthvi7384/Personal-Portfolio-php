@@ -1,6 +1,6 @@
 # Portfolio-Website
 
-Admin Cradintial = user name=> admin
+Admin Cradintial = user name=> admin And
                    password = admin
                    
                    Website live demo =>http://portfolio.pruthviraj-rajput-portfolio.rf.gd/
