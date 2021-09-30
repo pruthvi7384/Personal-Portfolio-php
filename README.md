@@ -27,7 +27,7 @@ I have designed fullstack portfolio website using `php` and `MySQL` database als
 #### 1. Install a Xampp Server and start it. [install xampp server](https://www.apachefriends.org/index.html)
 #### 2. open the `htdocs` folder and create your own folder `like your name` then open `CMD` and type command =>
     git clone https://github.com/pruthvi7384/Personal-Portfolio-php.git
-#### 3. Copy The Repo URL [https://github.com/pruthvi7384/Tourism-Blogger.git](https://github.com/pruthvi7384/Tourism-Blogger.git).
+#### 3. Create Database name is `potfolio` and import database table `portfolio.sql`
 #### 4. After Sussesful Clone open in Text Editor
 #### 5. Finaly Open The Browser and type `localhost`
 #### 6. Your Website Sussesfuly Runing In `LocalHost`
