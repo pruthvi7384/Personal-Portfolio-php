@@ -1,7 +1,7 @@
 # Personal Portfolio Website
-## [Website Demo](http://portfolio.pruthviraj-rajput-portfolio.rf.gd/)
+## [Website Demo](https://portfolio-demo.infinityfreeapp.com/)
 
-## [Admin Panal Demo](http://portfolio.pruthviraj-rajput-portfolio.rf.gd/admin/login.php)
+## [Admin Panal Demo](https://portfolio-demo.infinityfreeapp.com/admin/login.php)
 
 `Admin Panal Login Credentials`
 
