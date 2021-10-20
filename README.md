@@ -1,7 +1,7 @@
 # Personal Portfolio Website
-## [Website Demo](https://portfolio-demo.infinityfreeapp.com/)
+## [Website Demo](http://portfolio-demo.infinityfreeapp.com/)
 
-## [Admin Panal Demo](https://portfolio-demo.infinityfreeapp.com/admin/login.php)
+## [Admin Panal Demo](http://portfolio-demo.infinityfreeapp.com/admin/login.php)
 
 `Admin Panal Login Credentials`
 
