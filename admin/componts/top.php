@@ -79,6 +79,9 @@
                         <li>
                             <a href="countact.php"><span><i class="fa fa-commenting" aria-hidden="true"></i></span> Contacts</a>
                         </li>
+                        <li>
+                            <a href="cs_experiments.php"><span><i class="fa fa-lock" aria-hidden="true"></i></span> Cyber Security</a>
+                        </li>
                     </ul>
                 </div>
             </div>

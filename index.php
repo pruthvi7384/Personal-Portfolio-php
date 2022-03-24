@@ -39,10 +39,11 @@
     $experience = mysqli_query($con,"SELECT * FROM experience WHERE status = '1'");
 
     $projects = mysqli_query($con,"SELECT * FROM project WHERE status = '1'");
+
+    $cs_exp = mysqli_query($con,"SELECT * FROM cs WHERE status = '1' order by order_no");
     
     $certifi = mysqli_query($con,"SELECT * FROM certificate WHERE status = '1'");
 
-   
 ?>
 
   <!-- ======= Header ======= -->
@@ -63,7 +64,8 @@
           <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#resume">Resume</a></li>
           <li><a class="nav-link" href="#services">Certificates</a></li>
-          <li><a class="nav-link" href="#portfolio">projects</a></li>
+          <li><a class="nav-link" href="#portfolio">Projects</a></li>
+          <li><a class="nav-link" href="#cybersecurity">Cyber Security</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -306,6 +308,25 @@
           <?php } ?>
       </div>
 
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- =======Cyber Security Section ======= -->
+   <section id="cybersecurity" class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>Cyber Security Experiments</h2>
+        <p>My Cyber Security Experiments</p>
+      </div>
+      <div class="row cs-container">
+        <?php while($cs = mysqli_fetch_assoc($cs_exp)){?>
+          <div class="col-lg-4 col-md-6 cs-item">
+              <h4><?php echo $cs['name']; ?></h4>
+              <p><span>AIM:- </span>  <?php echo $cs['aim']; ?></p>
+              <a href="cs_experiment.php?id=<?php echo $cs['id']; ?>" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details"><button>Read More</button></a>
+          </div>
+          <?php } ?>
+      </div>
     </div>
   </section><!-- End Portfolio Section -->
 
